@@ -1,0 +1,18 @@
+---
+title: "9:00 Section"
+author: "Andrew Gehman"
+date: "October 18, 2017"
+output: html_document
+---
+
+```{r setup, include=TRUE}
+x<-3
+y<-3
+x-sqrt(y)
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
